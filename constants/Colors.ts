@@ -1,26 +1,20 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
+class Colors {
+  static readonly darkBg1 = "#292f3b";
+  static readonly darkBg2 = "#1f232b";
+  static readonly darkBg3 = "#1a1f26";
+  static readonly darkBg4 = "#060c18";
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+  static readonly purpleLight = "#9d4edd";
+  static readonly purpleMedium = "#7b2cbf";
+  static readonly purpleDark = "#5a189a";
 
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
-};
+  static readonly tabBg = "#0D1321";
+  static readonly tabInactive = "#4A5568";
+  static readonly tabActive = "#9d4edd";
+
+  static readonly contentText = "#E2E8F0";
+  static readonly contentSubtext = "#A0AEC0";
+  static readonly contentAccent = "#7b2cbf";
+}
+
+export default Colors;
