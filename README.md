@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# 📝 NotesApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Una aplicación móvil moderna para tomar notas construida con React Native, Tailwind CSS y Expo.
 
-## Get started
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-1. Install dependencies
+## ✨ Características
 
-   ```bash
-   npm install
-   ```
+- 📱 Interfaz de usuario moderna y responsive
+- 🎨 Diseño personalizable con Tailwind CSS
+- 📝 Creación, edición y eliminación de notas
+- 🔄 Sincronización local
+- 🌙 Modo oscuro/claro
+- 📊 Organización por categorías
 
-2. Start the app
+## 🚀 Tecnologías
 
-   ```bash
-    npx expo start
-   ```
+- **React Native**: Framework de desarrollo móvil multiplataforma
+- **Expo**: Plataforma para desarrollar aplicaciones React Native
+- **Tailwind CSS**: Framework de utilidades CSS para estilos
+- **TypeScript**: Superset tipado de JavaScript
+- **pnpm**: Gestor de paquetes rápido y eficiente
 
-In the output, you'll find options to open the app in a
+## 📋 Prerrequisitos
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Node.js (versión 16 o superior)
+- pnpm
+- Expo CLI
+- iOS Simulator o Android Emulator (opcional)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Instalación
 
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clona el repositorio:
 ```bash
-npm run reset-project
+git clone https://github.com/unbot2313/notes-app.git
+cd notes-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Instala las dependencias:
+```bash
+pnpm install
+```
 
-## Learn more
+3. Inicia el proyecto:
+```bash
+pnpm start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Escanea el código QR con la app Expo Go (Android) o la cámara (iOS)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📱 Scripts Disponibles
 
-## Join the community
+- `pnpm start`: Inicia el servidor de desarrollo de Expo
+- `pnpm android`: Inicia la app en el emulador de Android
+- `pnpm ios`: Inicia la app en el simulador de iOS
+- `pnpm web`: Inicia la app en el navegador web
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## 🤝 Contribuir
+
+1. Haz fork del proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
