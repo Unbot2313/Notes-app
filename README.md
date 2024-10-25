@@ -35,8 +35,8 @@ Una aplicación móvil moderna para tomar notas construida con React Native, Tai
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/unbot2313/notes-app.git
-cd notes-app
+https://github.com/Unbot2313/Notes-app.git
+cd Notes-app
 ```
 
 2. Instala las dependencias:
