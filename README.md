@@ -13,7 +13,6 @@ Una aplicación móvil moderna para tomar notas construida con React Native, Tai
 - 🎨 Diseño personalizable con Tailwind CSS
 - 📝 Creación, edición y eliminación de notas
 - 🔄 Sincronización local
-- 🌙 Modo oscuro/claro
 - 📊 Organización por categorías
 
 ## 🚀 Tecnologías
